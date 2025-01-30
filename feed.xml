@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://bndocs.pages.dev/</id>
+  <id>https://m.bmtapp.news/</id>
   <title>BNDocs</title>
   <subtitle>BNDocs একটি অনলাইন প্ল্যাটফর্ম যেখানে Android Studio, Java, PHP এবং অ্যাপ ডেভেলপমেন্ট সম্পর্কিত বিভিন্ন টিউটোরিয়াল, নোট এবং গাইড সরবরাহ করা হয়।</subtitle>
-  <updated>2025-01-30T13:30:40+06:00</updated>
+  <updated>2025-01-30T14:08:20+06:00</updated>
   <author>
     <name>BNDocs</name>
-    <uri>https://bndocs.pages.dev/</uri>
+    <uri>https://m.bmtapp.news/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://bndocs.pages.dev/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://m.bmtapp.news/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en bn"
-    href="https://bndocs.pages.dev/"/>
+    href="https://m.bmtapp.news/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.0">Jekyll</generator>
   <rights> © 2025 BNDocs </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা</title>
-    <link href="https://bndocs.pages.dev/json-parse.html" rel="alternate" type="text/html" title="Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা" />
+    <link href="https://m.bmtapp.news/json-parse" rel="alternate" type="text/html" title="Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা" />
     <published>2025-01-29T15:45:00+06:00</published>
   
     <updated>2025-01-29T09:39:59+06:00</updated>
   
-    <id>https://bndocs.pages.dev/json-parse.html</id>
-    <content src="https://bndocs.pages.dev/json-parse.html" />
+    <id>https://m.bmtapp.news/json-parse</id>
+    <content src="https://m.bmtapp.news/json-parse" />
     <author>
       <name>Jihad</name>
     </author>
@@ -62,13 +62,13 @@ Volley হল Android-এর একটি HTTP লাইব্রেরি, য�
   
   <entry>
     <title>Class 252- JSON ফাইল ফরম্যাট এবং JSON অবজেক্ট ও অ্যারে বোঝা</title>
-    <link href="https://bndocs.pages.dev/json-format.html" rel="alternate" type="text/html" title="Class 252- JSON ফাইল ফরম্যাট এবং JSON অবজেক্ট ও অ্যারে বোঝা" />
+    <link href="https://m.bmtapp.news/json-format" rel="alternate" type="text/html" title="Class 252- JSON ফাইল ফরম্যাট এবং JSON অবজেক্ট ও অ্যারে বোঝা" />
     <published>2025-01-29T15:45:00+06:00</published>
   
     <updated>2025-01-29T09:39:59+06:00</updated>
   
-    <id>https://bndocs.pages.dev/json-format.html</id>
-    <content src="https://bndocs.pages.dev/json-format.html" />
+    <id>https://m.bmtapp.news/json-format</id>
+    <content src="https://m.bmtapp.news/json-format" />
     <author>
       <name>Jihad</name>
     </author>
@@ -102,13 +102,13 @@ JSON ফাইল .json এক্সটেনশন দিয়ে সেভ ক�
   
   <entry>
     <title>Class 251- Google AdMob Ads সার্ভার রেসপন্সের উপর ভিত্তি করে শো করা</title>
-    <link href="https://bndocs.pages.dev/google-admob-ads-server-response.html" rel="alternate" type="text/html" title="Class 251- Google AdMob Ads সার্ভার রেসপন্সের উপর ভিত্তি করে শো করা" />
+    <link href="https://m.bmtapp.news/google-admob-ads-server-response" rel="alternate" type="text/html" title="Class 251- Google AdMob Ads সার্ভার রেসপন্সের উপর ভিত্তি করে শো করা" />
     <published>2025-01-29T15:45:00+06:00</published>
   
     <updated>2025-01-29T09:39:59+06:00</updated>
   
-    <id>https://bndocs.pages.dev/google-admob-ads-server-response.html</id>
-    <content src="https://bndocs.pages.dev/google-admob-ads-server-response.html" />
+    <id>https://m.bmtapp.news/google-admob-ads-server-response</id>
+    <content src="https://m.bmtapp.news/google-admob-ads-server-response" />
     <author>
       <name>Jihad</name>
     </author>
@@ -145,13 +145,13 @@ JSON ফাইল .json এক্সটেনশন দিয়ে সেভ ক�
   
   <entry>
     <title>Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার</title>
-    <link href="https://bndocs.pages.dev/volley-request-types-and-get-method.html" rel="alternate" type="text/html" title="Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার" />
+    <link href="https://m.bmtapp.news/volley-request-types-and-get-method" rel="alternate" type="text/html" title="Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার" />
     <published>2025-01-27T15:45:00+06:00</published>
   
     <updated>2025-01-29T09:39:59+06:00</updated>
   
-    <id>https://bndocs.pages.dev/volley-request-types-and-get-method.html</id>
-    <content src="https://bndocs.pages.dev/volley-request-types-and-get-method.html" />
+    <id>https://m.bmtapp.news/volley-request-types-and-get-method</id>
+    <content src="https://m.bmtapp.news/volley-request-types-and-get-method" />
     <author>
       <name>Jihad</name>
     </author>
@@ -187,13 +187,13 @@ GET মেথড হল HTTP রিকুয়েস্টের একটি প.
   
   <entry>
     <title>Class 250- সার্ভার থেকে ডেটা পার্সিং ভলি লাইব্রেরি ব্যবহার করে</title>
-    <link href="https://bndocs.pages.dev/class-250-parsing-data-from-server.html" rel="alternate" type="text/html" title="Class 250- সার্ভার থেকে ডেটা পার্সিং ভলি লাইব্রেরি ব্যবহার করে" />
+    <link href="https://m.bmtapp.news/class-250-parsing-data-from-server" rel="alternate" type="text/html" title="Class 250- সার্ভার থেকে ডেটা পার্সিং ভলি লাইব্রেরি ব্যবহার করে" />
     <published>2025-01-27T15:45:00+06:00</published>
   
     <updated>2025-01-29T09:39:59+06:00</updated>
   
-    <id>https://bndocs.pages.dev/class-250-parsing-data-from-server.html</id>
-    <content src="https://bndocs.pages.dev/class-250-parsing-data-from-server.html" />
+    <id>https://m.bmtapp.news/class-250-parsing-data-from-server</id>
+    <content src="https://m.bmtapp.news/class-250-parsing-data-from-server" />
     <author>
       <name>Jihad</name>
     </author>

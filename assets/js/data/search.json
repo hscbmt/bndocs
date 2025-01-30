@@ -2,7 +2,7 @@
   
   {
     "title": "Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা",
-    "url": "/json-parse.html",
+    "url": "/json-parse",
     "categories": "Android Studio Server & API",
     "tags": "Android Studio Server & API",
     "date": "2025-01-29 15:45:00 +0600",
@@ -19,7 +19,7 @@
   
   {
     "title": "Class 252- JSON ফাইল ফরম্যাট এবং JSON অবজেক্ট ও অ্যারে বোঝা",
-    "url": "/json-format.html",
+    "url": "/json-format",
     "categories": "Android Studio Server & API",
     "tags": "Android Studio Server & API",
     "date": "2025-01-29 15:45:00 +0600",
@@ -36,7 +36,7 @@
   
   {
     "title": "Class 251- Google AdMob Ads সার্ভার রেসপন্সের উপর ভিত্তি করে শো করা",
-    "url": "/google-admob-ads-server-response.html",
+    "url": "/google-admob-ads-server-response",
     "categories": "Android Studio Server & API",
     "tags": "Android Studio Server & API",
     "date": "2025-01-29 15:45:00 +0600",
@@ -53,7 +53,7 @@
   
   {
     "title": "Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার",
-    "url": "/volley-request-types-and-get-method.html",
+    "url": "/volley-request-types-and-get-method",
     "categories": "Android Studio Server & API",
     "tags": "Android Studio Server & API",
     "date": "2025-01-27 15:45:00 +0600",
@@ -70,7 +70,7 @@
   
   {
     "title": "Class 250- সার্ভার থেকে ডেটা পার্সিং ভলি লাইব্রেরি ব্যবহার করে",
-    "url": "/class-250-parsing-data-from-server.html",
+    "url": "/class-250-parsing-data-from-server",
     "categories": "Android Studio Server & API",
     "tags": "Android Studio Server & API",
     "date": "2025-01-27 15:45:00 +0600",
@@ -87,7 +87,7 @@
   
   {
     "title": "Class 249- Hello World & Variable Declaration in PHP (ব্যাখ্যা বাংলায়)",
-    "url": "/class-249-hello-world-and-variable-declaration-in-php.html",
+    "url": "/class-249-hello-world-and-variable-declaration-in-php",
     "categories": "Android Studio Server & API",
     "tags": "Android Studio Server & API",
     "date": "2025-01-27 15:45:00 +0600",
@@ -104,7 +104,7 @@
   
   {
     "title": "Class 248- সার্ভার, এপিআই এবং ডেটাবেস",
-    "url": "/class-248-server-and-api.html",
+    "url": "/class-248-server-and-api",
     "categories": "Android Studio Server & API",
     "tags": "Android Studio Server & API",
     "date": "2025-01-27 15:45:00 +0600",
