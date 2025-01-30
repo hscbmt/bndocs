@@ -1,0 +1,229 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://bndocs.pages.dev/</id>
+  <title>BNDocs</title>
+  <subtitle>BNDocs একটি অনলাইন প্ল্যাটফর্ম যেখানে Android Studio, Java, PHP এবং অ্যাপ ডেভেলপমেন্ট সম্পর্কিত বিভিন্ন টিউটোরিয়াল, নোট এবং গাইড সরবরাহ করা হয়।</subtitle>
+  <updated>2025-01-30T13:30:40+06:00</updated>
+  <author>
+    <name>BNDocs</name>
+    <uri>https://bndocs.pages.dev/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://bndocs.pages.dev/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en bn"
+    href="https://bndocs.pages.dev/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.0">Jekyll</generator>
+  <rights> © 2025 BNDocs </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা</title>
+    <link href="https://bndocs.pages.dev/json-parse.html" rel="alternate" type="text/html" title="Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা" />
+    <published>2025-01-29T15:45:00+06:00</published>
+  
+    <updated>2025-01-29T09:39:59+06:00</updated>
+  
+    <id>https://bndocs.pages.dev/json-parse.html</id>
+    <content src="https://bndocs.pages.dev/json-parse.html" />
+    <author>
+      <name>Jihad</name>
+    </author>
+
+  
+    
+    <category term="Android Studio Server &amp; API" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      এই ক্লাসে আমরা Android অ্যাপে JSON ডেটা পার্স করার পদ্ধতি শিখব। আমরা Volley লাইব্রেরি ব্যবহার করে নেটওয়ার্ক থেকে JSON ডেটা ফেচ করব এবং সেখান থেকে নাম, মোবাইল, ইমেইল, ঠিকানা ইত্যাদি ডেটা এক্সট্র্যাক্ট করব।
+
+
+
+Volley লাইব্রেরি ব্যবহার করে JSON পার্সিং
+
+Volley কি?
+Volley হল Android-এর একটি HTTP লাইব্রেরি, যা নেটওয়ার্ক রিকোয়েস্ট এবং রেসপন্স হ্যান্ডেলিং সহজ করে। এটি JSON ডেটা পার্স করার জন্য খুবই জন...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Class 252- JSON ফাইল ফরম্যাট এবং JSON অবজেক্ট ও অ্যারে বোঝা</title>
+    <link href="https://bndocs.pages.dev/json-format.html" rel="alternate" type="text/html" title="Class 252- JSON ফাইল ফরম্যাট এবং JSON অবজেক্ট ও অ্যারে বোঝা" />
+    <published>2025-01-29T15:45:00+06:00</published>
+  
+    <updated>2025-01-29T09:39:59+06:00</updated>
+  
+    <id>https://bndocs.pages.dev/json-format.html</id>
+    <content src="https://bndocs.pages.dev/json-format.html" />
+    <author>
+      <name>Jihad</name>
+    </author>
+
+  
+    
+    <category term="Android Studio Server &amp; API" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      JSON কি?
+JSON (JavaScript Object Notation) হল একটি হালকা ডেটা ইন্টারচেঞ্জ ফরম্যাট, যা মানুষের পড়া এবং লেখা সহজ এবং মেশিনের পার্স ও জেনারেট করা সহজ। এটি মূলত টেক্সট ফরম্যাটে ডেটা স্ট্রাকচার এবং অবজেক্ট রিপ্রেজেন্ট করে। JSON সাধারণত ওয়েব অ্যাপ্লিকেশনে সার্ভার এবং ক্লায়েন্টের মধ্যে ডেটা ট্রান্সফার করতে ব্যবহৃত হয়।
+
+
+
+JSON ফাইল ফরম্যাট
+JSON ফাইল .json এক্সটেনশন দিয়ে সেভ করা হয়। এটি একটি টেক্সট ফাইল...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Class 251- Google AdMob Ads সার্ভার রেসপন্সের উপর ভিত্তি করে শো করা</title>
+    <link href="https://bndocs.pages.dev/google-admob-ads-server-response.html" rel="alternate" type="text/html" title="Class 251- Google AdMob Ads সার্ভার রেসপন্সের উপর ভিত্তি করে শো করা" />
+    <published>2025-01-29T15:45:00+06:00</published>
+  
+    <updated>2025-01-29T09:39:59+06:00</updated>
+  
+    <id>https://bndocs.pages.dev/google-admob-ads-server-response.html</id>
+    <content src="https://bndocs.pages.dev/google-admob-ads-server-response.html" />
+    <author>
+      <name>Jihad</name>
+    </author>
+
+  
+    
+    <category term="Android Studio Server &amp; API" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      এই ক্লাসে আমরা শিখব কিভাবে সার্ভার থেকে একটি স্ট্রিং রেসপন্স চেক করে AdMob ব্যানার এডস শো বা হাইড করতে হয়। যদি সার্ভার রেসপন্সে "showADS" থাকে, তাহলে AdMob ব্যানার এডস শো করব। অন্যথায়, এডস হাইড করব।
+
+
+
+ধাপ 1: AdMob সেটআপ
+
+
+  AdMob অ্যাকাউন্ট তৈরি করুন: AdMob এ একটি অ্যাকাউন্ট তৈরি করুন এবং একটি নতুন অ্যাপ যোগ করুন।
+  
+    Ad Unit ID সংগ্রহ করুন: AdMob থেকে একটি ব্যানার এডের জন্য Ad Unit ID সংগ্...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার</title>
+    <link href="https://bndocs.pages.dev/volley-request-types-and-get-method.html" rel="alternate" type="text/html" title="Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার" />
+    <published>2025-01-27T15:45:00+06:00</published>
+  
+    <updated>2025-01-29T09:39:59+06:00</updated>
+  
+    <id>https://bndocs.pages.dev/volley-request-types-and-get-method.html</id>
+    <content src="https://bndocs.pages.dev/volley-request-types-and-get-method.html" />
+    <author>
+      <name>Jihad</name>
+    </author>
+
+  
+    
+    <category term="Android Studio Server &amp; API" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার
+
+ভলি লাইব্রেরি অ্যান্ড্রয়েড অ্যাপে নেটওয়ার্ক রিকুয়েস্ট হ্যান্ডেল করার জন্য একটি শক্তিশালী লাইব্রেরি। এটি বিভিন্ন ধরনের রিকুয়েস্ট সাপোর্ট করে, যেমন: GET, POST, PUT, DELETE, ইত্যাদি। এই গাইডে আমরা শুধুমাত্র GET মেথড নিয়ে আলোচনা করব এবং কখন কোন ধরনের রিকুয়েস্ট ব্যবহার করা উচিত তা বুঝব।
+
+
+
+GET মেথড কি?
+
+GET মেথড হল HTTP রিকুয়েস্টের একটি প...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Class 250- সার্ভার থেকে ডেটা পার্সিং ভলি লাইব্রেরি ব্যবহার করে</title>
+    <link href="https://bndocs.pages.dev/class-250-parsing-data-from-server.html" rel="alternate" type="text/html" title="Class 250- সার্ভার থেকে ডেটা পার্সিং ভলি লাইব্রেরি ব্যবহার করে" />
+    <published>2025-01-27T15:45:00+06:00</published>
+  
+    <updated>2025-01-29T09:39:59+06:00</updated>
+  
+    <id>https://bndocs.pages.dev/class-250-parsing-data-from-server.html</id>
+    <content src="https://bndocs.pages.dev/class-250-parsing-data-from-server.html" />
+    <author>
+      <name>Jihad</name>
+    </author>
+
+  
+    
+    <category term="Android Studio Server &amp; API" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      এই ক্লাসে আমরা শিখব কিভাবে একটি সাধারণ PHP ফাইল তৈরি করে সেখান থেকে ডেটা রিট্রিভ করতে হয় এবং অ্যান্ড্রয়েড অ্যাপে ভলি লাইব্রেরি ব্যবহার করে সেই ডেটা ডিসপ্লে করতে হয়। আমরা একটি সহজ PHP ফাইল তৈরি করব যা “Hello World This is a Test Text For” এই টেক্সটটি রিটার্ন করবে এবং অ্যান্ড্রয়েড অ্যাপে ভলি লাইব্রেরি ব্যবহার করে এই টেক্সটটি রিট্রিভ করব।
+
+
+
+Step 1: সার্ভারে PHP ফাইল তৈরি করা
+
+প্রথমে আমাদের সার্ভা...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
