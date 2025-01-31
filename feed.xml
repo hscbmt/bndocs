@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>https://m.bmtapp.news/</id>
   <title>BNDocs</title>
   <subtitle>BNDocs একটি অনলাইন প্ল্যাটফর্ম যেখানে Android Studio, Java, PHP এবং অ্যাপ ডেভেলপমেন্ট সম্পর্কিত বিভিন্ন টিউটোরিয়াল, নোট এবং গাইড সরবরাহ করা হয়।</subtitle>
-  <updated>2025-01-31T09:38:02+06:00</updated>
+  <updated>2025-01-31T09:42:36+06:00</updated>
   <author>
     <name>BNDocs</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>https://m.bmtapp.news/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://m.bmtapp.news/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="bn"
-    href="http://localhost:4000/"/>
+    href="https://m.bmtapp.news/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.0">Jekyll</generator>
   <rights> © 2025 BNDocs </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার</title>
-    <link href="http://localhost:4000/volley-request-types-and-get-method" rel="alternate" type="text/html" title="Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার" />
+    <link href="https://m.bmtapp.news/volley-request-types-and-get-method" rel="alternate" type="text/html" title="Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার" />
     <published>2025-01-31T09:37:41+06:00</published>
   
     <updated>2025-01-31T09:38:41+06:00</updated>
   
-    <id>http://localhost:4000/volley-request-types-and-get-method</id>
-    <content src="http://localhost:4000/volley-request-types-and-get-method" />
+    <id>https://m.bmtapp.news/volley-request-types-and-get-method</id>
+    <content src="https://m.bmtapp.news/volley-request-types-and-get-method" />
     <author>
       <name>Jihad</name>
     </author>
@@ -63,13 +63,13 @@ GET মেথড হল HTTP রিকুয়েস্টের একটি প.
   
   <entry>
     <title>Class 263- অ্যান্ড্রয়েড অ্যাপ থেকে MySQL ডেটাবেসে ডেটা ইনসার্ট করা (Volley StringRequest এবং PHP $_GET মেথড ব্যবহার করে)</title>
-    <link href="http://localhost:4000/insert-data-volley-stringrequest-php-get-method" rel="alternate" type="text/html" title="Class 263- অ্যান্ড্রয়েড অ্যাপ থেকে MySQL ডেটাবেসে ডেটা ইনসার্ট করা (Volley StringRequest এবং PHP $_GET মেথড ব্যবহার করে)" />
+    <link href="https://m.bmtapp.news/insert-data-volley-stringrequest-php-get-method" rel="alternate" type="text/html" title="Class 263- অ্যান্ড্রয়েড অ্যাপ থেকে MySQL ডেটাবেসে ডেটা ইনসার্ট করা (Volley StringRequest এবং PHP $_GET মেথড ব্যবহার করে)" />
     <published>2025-01-31T09:37:41+06:00</published>
   
     <updated>2025-01-31T09:38:41+06:00</updated>
   
-    <id>http://localhost:4000/insert-data-volley-stringrequest-php-get-method</id>
-    <content src="http://localhost:4000/insert-data-volley-stringrequest-php-get-method" />
+    <id>https://m.bmtapp.news/insert-data-volley-stringrequest-php-get-method</id>
+    <content src="https://m.bmtapp.news/insert-data-volley-stringrequest-php-get-method" />
     <author>
       <name>Jihad</name>
     </author>
@@ -103,13 +103,13 @@ GET মেথড হল HTTP রিকুয়েস্টের একটি প.
   
   <entry>
     <title>Class 262- URL প্যারামিটারের মাধ্যমে ডেটা পাস করা এবং PHP $_GET মেথড দিয়ে ডেটা রিসিভ করা</title>
-    <link href="http://localhost:4000/pass-data-by-url-parameter-and-receive-data-by-get-method" rel="alternate" type="text/html" title="Class 262- URL প্যারামিটারের মাধ্যমে ডেটা পাস করা এবং PHP $_GET মেথড দিয়ে ডেটা রিসিভ করা" />
+    <link href="https://m.bmtapp.news/pass-data-by-url-parameter-and-receive-data-by-get-method" rel="alternate" type="text/html" title="Class 262- URL প্যারামিটারের মাধ্যমে ডেটা পাস করা এবং PHP $_GET মেথড দিয়ে ডেটা রিসিভ করা" />
     <published>2025-01-31T09:37:41+06:00</published>
   
     <updated>2025-01-31T09:38:41+06:00</updated>
   
-    <id>http://localhost:4000/pass-data-by-url-parameter-and-receive-data-by-get-method</id>
-    <content src="http://localhost:4000/pass-data-by-url-parameter-and-receive-data-by-get-method" />
+    <id>https://m.bmtapp.news/pass-data-by-url-parameter-and-receive-data-by-get-method</id>
+    <content src="https://m.bmtapp.news/pass-data-by-url-parameter-and-receive-data-by-get-method" />
     <author>
       <name>Jihad</name>
     </author>
@@ -142,13 +142,13 @@ URL প্যারামিটার হল একটি কী-ভ্যাল
   
   <entry>
     <title>Class 260 &amp; 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা</title>
-    <link href="http://localhost:4000/php-mysql-connect-and-condition-check" rel="alternate" type="text/html" title="Class 260 &amp;amp; 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা" />
+    <link href="https://m.bmtapp.news/php-mysql-connect-and-condition-check" rel="alternate" type="text/html" title="Class 260 &amp;amp; 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা" />
     <published>2025-01-31T09:37:41+06:00</published>
   
     <updated>2025-01-31T09:38:41+06:00</updated>
   
-    <id>http://localhost:4000/php-mysql-connect-and-condition-check</id>
-    <content src="http://localhost:4000/php-mysql-connect-and-condition-check" />
+    <id>https://m.bmtapp.news/php-mysql-connect-and-condition-check</id>
+    <content src="https://m.bmtapp.news/php-mysql-connect-and-condition-check" />
     <author>
       <name>Jihad</name>
     </author>
@@ -181,13 +181,13 @@ PHP এবং MySQL একসাথে কাজ করলে আমরা ও�
   
   <entry>
     <title>Class 256 &amp; 257- একটি পূর্ণাঙ্গ অ্যান্ড্রয়েড অ্যাপ তৈরি করা - JSON পার্সিং এবং ListView ব্যবহার করে</title>
-    <link href="http://localhost:4000/json-parse-listview" rel="alternate" type="text/html" title="Class 256 &amp;amp; 257- একটি পূর্ণাঙ্গ অ্যান্ড্রয়েড অ্যাপ তৈরি করা - JSON পার্সিং এবং ListView ব্যবহার করে" />
+    <link href="https://m.bmtapp.news/json-parse-listview" rel="alternate" type="text/html" title="Class 256 &amp;amp; 257- একটি পূর্ণাঙ্গ অ্যান্ড্রয়েড অ্যাপ তৈরি করা - JSON পার্সিং এবং ListView ব্যবহার করে" />
     <published>2025-01-31T09:37:41+06:00</published>
   
     <updated>2025-01-31T09:38:41+06:00</updated>
   
-    <id>http://localhost:4000/json-parse-listview</id>
-    <content src="http://localhost:4000/json-parse-listview" />
+    <id>https://m.bmtapp.news/json-parse-listview</id>
+    <content src="https://m.bmtapp.news/json-parse-listview" />
     <author>
       <name>Jihad</name>
     </author>
