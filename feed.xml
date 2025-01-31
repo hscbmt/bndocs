@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://m.bmtapp.news/</id>
+  <id>http://localhost:4000/</id>
   <title>BNDocs</title>
   <subtitle>BNDocs একটি অনলাইন প্ল্যাটফর্ম যেখানে Android Studio, Java, PHP এবং অ্যাপ ডেভেলপমেন্ট সম্পর্কিত বিভিন্ন টিউটোরিয়াল, নোট এবং গাইড সরবরাহ করা হয়।</subtitle>
-  <updated>2025-01-30T14:21:37+06:00</updated>
+  <updated>2025-01-31T09:38:02+06:00</updated>
   <author>
     <name>BNDocs</name>
-    <uri>https://m.bmtapp.news/</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://m.bmtapp.news/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="en bn"
-    href="https://m.bmtapp.news/"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="bn"
+    href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.0">Jekyll</generator>
   <rights> © 2025 BNDocs </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -20,138 +20,14 @@
 
   
   <entry>
-    <title>Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা</title>
-    <link href="https://m.bmtapp.news/json-parse" rel="alternate" type="text/html" title="Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা" />
-    <published>2025-01-29T15:45:00+06:00</published>
-  
-    <updated>2025-01-29T09:39:59+06:00</updated>
-  
-    <id>https://m.bmtapp.news/json-parse</id>
-    <content src="https://m.bmtapp.news/json-parse" />
-    <author>
-      <name>Jihad</name>
-    </author>
-
-  
-    
-    <category term="Android Studio Server &amp; API" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      এই ক্লাসে আমরা Android অ্যাপে JSON ডেটা পার্স করার পদ্ধতি শিখব। আমরা Volley লাইব্রেরি ব্যবহার করে নেটওয়ার্ক থেকে JSON ডেটা ফেচ করব এবং সেখান থেকে নাম, মোবাইল, ইমেইল, ঠিকানা ইত্যাদি ডেটা এক্সট্র্যাক্ট করব।
-
-
-
-Volley লাইব্রেরি ব্যবহার করে JSON পার্সিং
-
-Volley কি?
-Volley হল Android-এর একটি HTTP লাইব্রেরি, যা নেটওয়ার্ক রিকোয়েস্ট এবং রেসপন্স হ্যান্ডেলিং সহজ করে। এটি JSON ডেটা পার্স করার জন্য খুবই জন...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Class 252- JSON ফাইল ফরম্যাট এবং JSON অবজেক্ট ও অ্যারে বোঝা</title>
-    <link href="https://m.bmtapp.news/json-format" rel="alternate" type="text/html" title="Class 252- JSON ফাইল ফরম্যাট এবং JSON অবজেক্ট ও অ্যারে বোঝা" />
-    <published>2025-01-29T15:45:00+06:00</published>
-  
-    <updated>2025-01-29T09:39:59+06:00</updated>
-  
-    <id>https://m.bmtapp.news/json-format</id>
-    <content src="https://m.bmtapp.news/json-format" />
-    <author>
-      <name>Jihad</name>
-    </author>
-
-  
-    
-    <category term="Android Studio Server &amp; API" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      JSON কি?
-JSON (JavaScript Object Notation) হল একটি হালকা ডেটা ইন্টারচেঞ্জ ফরম্যাট, যা মানুষের পড়া এবং লেখা সহজ এবং মেশিনের পার্স ও জেনারেট করা সহজ। এটি মূলত টেক্সট ফরম্যাটে ডেটা স্ট্রাকচার এবং অবজেক্ট রিপ্রেজেন্ট করে। JSON সাধারণত ওয়েব অ্যাপ্লিকেশনে সার্ভার এবং ক্লায়েন্টের মধ্যে ডেটা ট্রান্সফার করতে ব্যবহৃত হয়।
-
-
-
-JSON ফাইল ফরম্যাট
-JSON ফাইল .json এক্সটেনশন দিয়ে সেভ করা হয়। এটি একটি টেক্সট ফাইল...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Class 251- Google AdMob Ads সার্ভার রেসপন্সের উপর ভিত্তি করে শো করা</title>
-    <link href="https://m.bmtapp.news/google-admob-ads-server-response" rel="alternate" type="text/html" title="Class 251- Google AdMob Ads সার্ভার রেসপন্সের উপর ভিত্তি করে শো করা" />
-    <published>2025-01-29T15:45:00+06:00</published>
-  
-    <updated>2025-01-29T09:39:59+06:00</updated>
-  
-    <id>https://m.bmtapp.news/google-admob-ads-server-response</id>
-    <content src="https://m.bmtapp.news/google-admob-ads-server-response" />
-    <author>
-      <name>Jihad</name>
-    </author>
-
-  
-    
-    <category term="Android Studio Server &amp; API" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      এই ক্লাসে আমরা শিখব কিভাবে সার্ভার থেকে একটি স্ট্রিং রেসপন্স চেক করে AdMob ব্যানার এডস শো বা হাইড করতে হয়। যদি সার্ভার রেসপন্সে "showADS" থাকে, তাহলে AdMob ব্যানার এডস শো করব। অন্যথায়, এডস হাইড করব।
-
-
-
-ধাপ 1: AdMob সেটআপ
-
-
-  AdMob অ্যাকাউন্ট তৈরি করুন: AdMob এ একটি অ্যাকাউন্ট তৈরি করুন এবং একটি নতুন অ্যাপ যোগ করুন।
-  
-    Ad Unit ID সংগ্রহ করুন: AdMob থেকে একটি ব্যানার এডের জন্য Ad Unit ID সংগ্...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
     <title>Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার</title>
-    <link href="https://m.bmtapp.news/volley-request-types-and-get-method" rel="alternate" type="text/html" title="Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার" />
-    <published>2025-01-27T15:45:00+06:00</published>
+    <link href="http://localhost:4000/volley-request-types-and-get-method" rel="alternate" type="text/html" title="Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার" />
+    <published>2025-01-31T09:37:41+06:00</published>
   
-    <updated>2025-01-29T09:39:59+06:00</updated>
+    <updated>2025-01-31T09:38:41+06:00</updated>
   
-    <id>https://m.bmtapp.news/volley-request-types-and-get-method</id>
-    <content src="https://m.bmtapp.news/volley-request-types-and-get-method" />
+    <id>http://localhost:4000/volley-request-types-and-get-method</id>
+    <content src="http://localhost:4000/volley-request-types-and-get-method" />
     <author>
       <name>Jihad</name>
     </author>
@@ -186,14 +62,14 @@ GET মেথড হল HTTP রিকুয়েস্টের একটি প.
 
   
   <entry>
-    <title>Class 250- সার্ভার থেকে ডেটা পার্সিং ভলি লাইব্রেরি ব্যবহার করে</title>
-    <link href="https://m.bmtapp.news/class-250-parsing-data-from-server" rel="alternate" type="text/html" title="Class 250- সার্ভার থেকে ডেটা পার্সিং ভলি লাইব্রেরি ব্যবহার করে" />
-    <published>2025-01-27T15:45:00+06:00</published>
+    <title>Class 263- অ্যান্ড্রয়েড অ্যাপ থেকে MySQL ডেটাবেসে ডেটা ইনসার্ট করা (Volley StringRequest এবং PHP $_GET মেথড ব্যবহার করে)</title>
+    <link href="http://localhost:4000/insert-data-volley-stringrequest-php-get-method" rel="alternate" type="text/html" title="Class 263- অ্যান্ড্রয়েড অ্যাপ থেকে MySQL ডেটাবেসে ডেটা ইনসার্ট করা (Volley StringRequest এবং PHP $_GET মেথড ব্যবহার করে)" />
+    <published>2025-01-31T09:37:41+06:00</published>
   
-    <updated>2025-01-29T09:39:59+06:00</updated>
+    <updated>2025-01-31T09:38:41+06:00</updated>
   
-    <id>https://m.bmtapp.news/class-250-parsing-data-from-server</id>
-    <content src="https://m.bmtapp.news/class-250-parsing-data-from-server" />
+    <id>http://localhost:4000/insert-data-volley-stringrequest-php-get-method</id>
+    <content src="http://localhost:4000/insert-data-volley-stringrequest-php-get-method" />
     <author>
       <name>Jihad</name>
     </author>
@@ -212,13 +88,132 @@ GET মেথড হল HTTP রিকুয়েস্টের একটি প.
 
 
 
-      এই ক্লাসে আমরা শিখব কিভাবে একটি সাধারণ PHP ফাইল তৈরি করে সেখান থেকে ডেটা রিট্রিভ করতে হয় এবং অ্যান্ড্রয়েড অ্যাপে ভলি লাইব্রেরি ব্যবহার করে সেই ডেটা ডিসপ্লে করতে হয়। আমরা একটি সহজ PHP ফাইল তৈরি করব যা “Hello World This is a Test Text For” এই টেক্সটটি রিটার্ন করবে এবং অ্যান্ড্রয়েড অ্যাপে ভলি লাইব্রেরি ব্যবহার করে এই টেক্সটটি রিট্রিভ করব।
+      আসসালামু আলাইকুম! আজকের ক্লাসে আমরা শিখব কিভাবে অ্যান্ড্রয়েড অ্যাপ থেকে MySQL ডেটাবেসে ডেটা ইনসার্ট করতে হয়। আমরা Android Studio-তে একটি সহজ অ্যাপ তৈরি করব, যেখানে ইউজার তার নাম, মোবাইল নাম্বার এবং ইমেইল দিয়ে সাবমিট করবে। এই ডেটা অ্যাপ থেকে সার্ভারে পাঠানো হবে, এবং সার্ভার PHP দিয়ে ডেটাবেসে স্টোর করবে।
+
+এই ক্লাসটি কমপ্লিট স্টেপ-বাই-স্টেপ গাইড হবে। চলুন শুরু করা যাক!
 
 
 
-Step 1: সার্ভারে PHP ফাইল তৈরি করা
+প্রথমে জেনে নেই কেন এ...
+    </summary>
+  
 
-প্রথমে আমাদের সার্ভা...
+  </entry>
+
+  
+  <entry>
+    <title>Class 262- URL প্যারামিটারের মাধ্যমে ডেটা পাস করা এবং PHP $_GET মেথড দিয়ে ডেটা রিসিভ করা</title>
+    <link href="http://localhost:4000/pass-data-by-url-parameter-and-receive-data-by-get-method" rel="alternate" type="text/html" title="Class 262- URL প্যারামিটারের মাধ্যমে ডেটা পাস করা এবং PHP $_GET মেথড দিয়ে ডেটা রিসিভ করা" />
+    <published>2025-01-31T09:37:41+06:00</published>
+  
+    <updated>2025-01-31T09:38:41+06:00</updated>
+  
+    <id>http://localhost:4000/pass-data-by-url-parameter-and-receive-data-by-get-method</id>
+    <content src="http://localhost:4000/pass-data-by-url-parameter-and-receive-data-by-get-method" />
+    <author>
+      <name>Jihad</name>
+    </author>
+
+  
+    
+    <category term="Android Studio Server &amp; API" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      আসসালামু আলাইকুম! আজকের ক্লাসে আমরা শিখব কিভাবে URL-এর মাধ্যমে ডেটা পাঠানো যায় এবং PHP স্ক্রিপ্টে সেই ডেটা ক্যাচ করা যায়। এছাড়াও, আমরা একটি user_table তৈরি করব এবং সেখানে নাম, ইমেইল এবং মোবাইল নম্বর ইনসার্ট করব। সবকিছু বাংলায় এবং কোড সহ ব্যাখ্যা করব। তাহলে চলুন শুরু করা যাক!
+
+
+
+ধাপ ১: URL প্যারামিটারের মাধ্যমে ডেটা পাঠানো
+URL প্যারামিটার হল একটি কী-ভ্যালু পেয়ার যা URL-এর শেষে ? চিহ্নের পর ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Class 260 &amp; 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা</title>
+    <link href="http://localhost:4000/php-mysql-connect-and-condition-check" rel="alternate" type="text/html" title="Class 260 &amp;amp; 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা" />
+    <published>2025-01-31T09:37:41+06:00</published>
+  
+    <updated>2025-01-31T09:38:41+06:00</updated>
+  
+    <id>http://localhost:4000/php-mysql-connect-and-condition-check</id>
+    <content src="http://localhost:4000/php-mysql-connect-and-condition-check" />
+    <author>
+      <name>Jihad</name>
+    </author>
+
+  
+    
+    <category term="Android Studio Server &amp; API" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      আসসালামু আলাইকুম! আজকের পোস্টে আমরা জানব কিভাবে PHP দিয়ে MySQL ডেটাবেস কানেক্ট করতে হয় এবং কিছু কন্ডিশন চেক করে স্টেট (state) বুঝার জন্য কোড লিখতে হয়। এটি একটি বিগিনার-ফ্রেন্ডলি টিউটোরিয়াল, তাই আপনি যদি নতুন হন তবেও সহজেই বুঝতে পারবেন। চলুন শুরু করা যাক!
+
+
+
+প্রথমে জেনে নেই কেন এটি জরুরি?
+PHP এবং MySQL একসাথে কাজ করলে আমরা ওয়েবসাইটে ডেটা স্টোর করতে পারি, ডেটা রিট্রিভ করতে পারি, এবং অনেক ধরন...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Class 256 &amp; 257- একটি পূর্ণাঙ্গ অ্যান্ড্রয়েড অ্যাপ তৈরি করা - JSON পার্সিং এবং ListView ব্যবহার করে</title>
+    <link href="http://localhost:4000/json-parse-listview" rel="alternate" type="text/html" title="Class 256 &amp;amp; 257- একটি পূর্ণাঙ্গ অ্যান্ড্রয়েড অ্যাপ তৈরি করা - JSON পার্সিং এবং ListView ব্যবহার করে" />
+    <published>2025-01-31T09:37:41+06:00</published>
+  
+    <updated>2025-01-31T09:38:41+06:00</updated>
+  
+    <id>http://localhost:4000/json-parse-listview</id>
+    <content src="http://localhost:4000/json-parse-listview" />
+    <author>
+      <name>Jihad</name>
+    </author>
+
+  
+    
+    <category term="Android Studio Server &amp; API" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      আজকে আমরা একটি পূর্ণাঙ্গ অ্যান্ড্রয়েড অ্যাপ তৈরি করব, যেখানে আমরা সার্ভার থেকে JSON ডেটা পার্স করব এবং সেই ডেটা দিয়ে একটি ListView তৈরি করব। আমরা ArrayList, HashMap, JSONArray, এবং JSONObject ব্যবহার করব। এছাড়াও আমরা Volley লাইব্রেরি ব্যবহার করে ডেটা ফেচ করব। সবকিছু বাংলায় ব্যাখ্যা করা হবে এবং কোডের উদাহরণ দেওয়া হবে।
+
+
+
+প্রথমে আমাদের JSON ডেটা দেখে নেই:
+
+{
+    "videoTitle": "Add Demo Title...
     </summary>
   
 

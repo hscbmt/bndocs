@@ -30,24 +30,25 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.0" />
-<meta property="og:title" content="Android Studio Server &amp; API" />
+<meta property="og:title" content="BNDocs" />
 <meta property="og:locale" content="bn" />
 <meta name="description" content="BNDocs একটি অনলাইন প্ল্যাটফর্ম যেখানে Android Studio, Java, PHP এবং অ্যাপ ডেভেলপমেন্ট সম্পর্কিত বিভিন্ন টিউটোরিয়াল, নোট এবং গাইড সরবরাহ করা হয়।" />
 <meta property="og:description" content="BNDocs একটি অনলাইন প্ল্যাটফর্ম যেখানে Android Studio, Java, PHP এবং অ্যাপ ডেভেলপমেন্ট সম্পর্কিত বিভিন্ন টিউটোরিয়াল, নোট এবং গাইড সরবরাহ করা হয়।" />
-<link rel="canonical" href="http://localhost:4000/categories/android-studio-server-api/" />
-<meta property="og:url" content="http://localhost:4000/categories/android-studio-server-api/" />
+<link rel="canonical" href="http://localhost:4000/page2/" />
+<meta property="og:url" content="http://localhost:4000/page2/" />
 <meta property="og:site_name" content="BNDocs" />
 <meta property="og:type" content="website" />
+<link rel="prev" href="http://localhost:4000/" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Android Studio Server &amp; API" />
+<meta property="twitter:title" content="BNDocs" />
 <meta name="twitter:site" content="@/" />
 <meta name="google-site-verification" content="vjgNpfCQ-sgbjxiceMggtyq2MLfOg9_xNVrdhgaHRM4" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"BNDocs একটি অনলাইন প্ল্যাটফর্ম যেখানে Android Studio, Java, PHP এবং অ্যাপ ডেভেলপমেন্ট সম্পর্কিত বিভিন্ন টিউটোরিয়াল, নোট এবং গাইড সরবরাহ করা হয়।","headline":"Android Studio Server &amp; API","url":"http://localhost:4000/categories/android-studio-server-api/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"BNDocs একটি অনলাইন প্ল্যাটফর্ম যেখানে Android Studio, Java, PHP এবং অ্যাপ ডেভেলপমেন্ট সম্পর্কিত বিভিন্ন টিউটোরিয়াল, নোট এবং গাইড সরবরাহ করা হয়।","headline":"BNDocs","url":"http://localhost:4000/page2/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Android Studio Server & API | BNDocs
+  <title>BNDocs
   </title>
 
   <!--
@@ -113,6 +114,8 @@
   
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
+  
 
   
 
@@ -129,6 +132,10 @@
 <!-- layout specified -->
 
 
+  
+
+  
+
 
 
 
@@ -178,9 +185,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
 
 
 
@@ -188,7 +202,7 @@
 
 
 
-<script defer src="/assets/js/dist/misc.min.js"></script>
+<script defer src="/assets/js/dist/home.min.js"></script>
 
 
 
@@ -218,7 +232,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item">
+      <li class="nav-item active">
         <a href="/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
@@ -382,27 +396,9 @@
       
 
       
-        
-          
-            <span>
-              <a href="/">Home</a>
-            </span>
+        <!-- index page -->
+        <span>Home</span>
 
-          
-        
-          
-            <span>
-              <a href="/categories/">Categories</a>
-            </span>
-          
-        
-          
-            
-              <span>Android Studio Server & API</span>
-            
-
-          
-        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -412,7 +408,7 @@
     </button>
 
     <div id="topbar-title">
-      Category
+      BNDocs
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link">
@@ -438,29 +434,443 @@
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             
+              <!-- Refactor the HTML structure -->
+
+
+
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
+
+
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
+
+
+
+<!-- Change the icon of checkbox -->
+
+
+
+<!-- Handle images -->
+
+
+
+
+  
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- create the image wrapper -->
+      
+
+      
+      
+
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- create the image wrapper -->
+      
+
+      
+      
+
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- create the image wrapper -->
+      
+
+      
+      
+
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- create the image wrapper -->
+      
+
+      
+      
+
+    
+
+    <!-- combine -->
+    
+  
+
+  
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+<!-- return -->
+
+
+
+
+
+
+
+
+
+<!-- Get pinned posts on current page -->
+
+
+
+
+
+
+<!-- Get normal posts on current page -->
+
+
+
+
+
+<div id="post-list" class="flex-grow-1 px-xl-1">
+  
+    <article class="card-wrapper card">
+      <a href="/class-250-parsing-data-from-server" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+          
+          
+
+          
+
+          
+
+          
+
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="https://cdn.jsdelivr.net/gh/hscbmt/img@main/class250.jpg" alt="Android Studio Server &amp; API"  loading="lazy"></div>
+          </div>
+
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">Class 250- সার্ভার থেকে ডেটা পার্সিং ভলি লাইব্রেরি ব্যবহার করে</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>এই ক্লাসে আমরা শিখব কিভাবে একটি সাধারণ PHP ফাইল তৈরি করে সেখান থেকে ডেটা রিট্রিভ করতে হয় এবং অ্যান্ড্রয়েড অ্যাপে ভলি লাইব্রেরি ব্যবহার করে সেই ডেটা ডিসপ্লে করতে হয়। আমরা একটি সহজ PHP ফাইল তৈরি করব ...</p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738294661"
+  data-df="ll"
+  
+>
+  Jan 31, 2025
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      Android Studio Server & API
+                  </span>
+                
+              </div>
+
               
-
-
-
-<article class="px-1">
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
   
-    
+    <article class="card-wrapper card">
+      <a href="/class-249-hello-world-and-variable-declaration-in-php" class="post-preview row g-0 flex-md-row-reverse">
+        
 
+        
+          
+          
 
+          
 
-<div id="page-category">
-  <h1 class="ps-lg-2">
-    <i class="far fa-folder-open fa-fw text-muted"></i>
-    Android Studio Server & API
-    <span class="lead text-muted ps-2">14</span>
-  </h1>
+          
 
-  <ul class="content ps-0">
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/volley-request-types-and-get-method">Volley - ভলি লাইব্রেরিতে রিকুয়েস্টের প্রকারভেদ এবং GET মেথডের ব্যবহার</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
+          
+
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="https://cdn.jsdelivr.net/gh/hscbmt/img@main/class249.jpg" alt="Android Studio Server &amp; API"  loading="lazy"></div>
+          </div>
+
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">Class 249- Hello World & Variable Declaration in PHP (ব্যাখ্যা বাংলায়)</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>PHP একটি সার্ভার-সাইড স্ক্রিপ্টিং ল্যাঙ্গুয়েজ, যা ওয়েব ডেভেলপমেন্টের জন্য ব্যাপকভাবে ব্যবহৃত হয়। আজকের ক্লাসে আমরা PHP তে Hello World প্রিন্ট করা এবং ভেরিয়েবল ডিক্লেয়ার (Variable Declaration) ...</p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -469,8 +879,6 @@
 
 
 <time
-  
-    class="text-muted small text-nowrap"
   
   data-ts="1738294661"
   data-df="ll"
@@ -479,12 +887,62 @@
   Jan 31, 2025
 </time>
 
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/insert-data-volley-stringrequest-php-get-method">Class 263- অ্যান্ড্রয়েড অ্যাপ থেকে MySQL ডেটাবেসে ডেটা ইনসার্ট করা (Volley StringRequest এবং PHP $_GET মেথড ব্যবহার করে)</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      Android Studio Server & API
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
+  
+    <article class="card-wrapper card">
+      <a href="/class-248-server-and-api" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+          
+          
+
+          
+
+          
+
+          
+
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="https://cdn.jsdelivr.net/gh/hscbmt/img@main/class248.png" alt="Android Studio Server &amp; API"  loading="lazy"></div>
+          </div>
+
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">Class 248- সার্ভার, এপিআই এবং ডেটাবেস</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>সার্ভার (Server)
+
+ধরুন, আপনি একটা লাইব্রেরিতে গেলেন বই খোঁজার জন্য। লাইব্রেরিটা হচ্ছে সার্ভার, আর আপনি হচ্ছেন ক্লায়েন্ট (Client)। লাইব্রেরিতে অনেক বই সাজানো আছে, আপনি যে বইটি চান, লাইব্রেরিয়ান (Lib...</p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -493,8 +951,6 @@
 
 
 <time
-  
-    class="text-muted small text-nowrap"
   
   data-ts="1738294661"
   data-df="ll"
@@ -503,12 +959,60 @@
   Jan 31, 2025
 </time>
 
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/pass-data-by-url-parameter-and-receive-data-by-get-method">Class 262- URL প্যারামিটারের মাধ্যমে ডেটা পাস করা এবং PHP $_GET মেথড দিয়ে ডেটা রিসিভ করা</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      Android Studio Server & API
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
+  
+    <article class="card-wrapper card">
+      <a href="/mysq-database" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+          
+          
+
+          
+
+          
+
+          
+
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="https://cdn.jsdelivr.net/gh/hscbmt/img@main/class259.png" alt="Android Studio Server &amp; API"  loading="lazy"></div>
+          </div>
+
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">Class 259- মাইএসকিউএল (MySQL) ডেটাবেস ব্যবহার করা</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>আসসালামু আলাইকুম! আজকের পোস্টে আমরা জানব কিভাবে একটি মাইএসকিউএল (MySQL) ডেটাবেস ব্যবহার করতে হয় এবং কিভাবে নিজের ডেটাবেস টেবিল তৈরি করতে হয়। এই টিউটোরিয়ালটি নতুনদের জন্য তৈরি করা হয়েছে, তাই আমি...</p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -517,272 +1021,6 @@
 
 
 <time
-  
-    class="text-muted small text-nowrap"
-  
-  data-ts="1738294661"
-  data-df="ll"
-  
->
-  Jan 31, 2025
-</time>
-
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/php-mysql-connect-and-condition-check">Class 260 & 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="text-muted small text-nowrap"
-  
-  data-ts="1738294661"
-  data-df="ll"
-  
->
-  Jan 31, 2025
-</time>
-
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/json-parse-listview">Class 256 & 257- একটি পূর্ণাঙ্গ অ্যান্ড্রয়েড অ্যাপ তৈরি করা - JSON পার্সিং এবং ListView ব্যবহার করে</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="text-muted small text-nowrap"
-  
-  data-ts="1738294661"
-  data-df="ll"
-  
->
-  Jan 31, 2025
-</time>
-
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/android-array-request">Class 255- Android-এ JSONArray Request এবং ডেটা পার্স করা</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="text-muted small text-nowrap"
-  
-  data-ts="1738294661"
-  data-df="ll"
-  
->
-  Jan 31, 2025
-</time>
-
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/json-array-creation">Class 254- JSON Array তৈরি করার পদ্ধতি (বাংলায়)</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="text-muted small text-nowrap"
-  
-  data-ts="1738294661"
-  data-df="ll"
-  
->
-  Jan 31, 2025
-</time>
-
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/json-parse">Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="text-muted small text-nowrap"
-  
-  data-ts="1738294661"
-  data-df="ll"
-  
->
-  Jan 31, 2025
-</time>
-
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/json-format">Class 252- JSON ফাইল ফরম্যাট এবং JSON অবজেক্ট ও অ্যারে বোঝা</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="text-muted small text-nowrap"
-  
-  data-ts="1738294661"
-  data-df="ll"
-  
->
-  Jan 31, 2025
-</time>
-
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/google-admob-ads-server-response">Class 251- Google AdMob Ads সার্ভার রেসপন্সের উপর ভিত্তি করে শো করা</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="text-muted small text-nowrap"
-  
-  data-ts="1738294661"
-  data-df="ll"
-  
->
-  Jan 31, 2025
-</time>
-
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/class-250-parsing-data-from-server">Class 250- সার্ভার থেকে ডেটা পার্সিং ভলি লাইব্রেরি ব্যবহার করে</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="text-muted small text-nowrap"
-  
-  data-ts="1738294661"
-  data-df="ll"
-  
->
-  Jan 31, 2025
-</time>
-
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/class-249-hello-world-and-variable-declaration-in-php">Class 249- Hello World & Variable Declaration in PHP (ব্যাখ্যা বাংলায়)</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="text-muted small text-nowrap"
-  
-  data-ts="1738294661"
-  data-df="ll"
-  
->
-  Jan 31, 2025
-</time>
-
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/class-248-server-and-api">Class 248- সার্ভার, এপিআই এবং ডেটাবেস</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="text-muted small text-nowrap"
-  
-  data-ts="1738294661"
-  data-df="ll"
-  
->
-  Jan 31, 2025
-</time>
-
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/mysq-database">Class 259- মাইএসকিউএল (MySQL) ডেটাবেস ব্যবহার করা</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="text-muted small text-nowrap"
   
   data-ts="1738284300"
   data-df="ll"
@@ -791,13 +1029,105 @@
   Jan 31, 2025
 </time>
 
-      </li>
-    
-  </ul>
-</div>
 
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      Android Studio Server & API
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
   
-</article>
+</div>
+<!-- #post-list -->
+
+
+  <!-- The paginator for post list on HomgPage. -->
+
+<nav aria-label="Page Navigation">
+  <ul class="pagination align-items-center mt-4 mb-0">
+    <!-- left arrow -->
+    
+
+    <li class="page-item ">
+      <a class="page-link" href="/" aria-label="previous-page">
+        <i class="fas fa-angle-left"></i>
+      </a>
+    </li>
+
+    <!-- page numbers -->
+    
+    
+
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/"
+          >1</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item  active">
+          <a
+            class="page-link"
+            href="/page2"
+          >2</a>
+        </li>
+      
+    
+
+    <!-- mobile pagination -->
+    <li class="page-index align-middle">
+      <span>2</span>
+      <span class="text-muted">/ 2</span>
+    </li>
+
+    <!-- right arrow -->
+    
+
+    <li class="page-item disabled">
+      <a class="page-link" href="#" aria-label="next-page">
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+<!-- .pagination -->
+
+
+
 
             
           </main>

@@ -30,31 +30,31 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.0" />
-<meta property="og:title" content="Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা" />
+<meta property="og:title" content="Class 260 &amp; 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা" />
 <meta name="author" content="MD JIHAD" />
 <meta property="og:locale" content="bn" />
-<meta name="description" content="এই ক্লাসে আমরা Android অ্যাপে JSON ডেটা পার্স করার পদ্ধতি শিখব। আমরা Volley লাইব্রেরি ব্যবহার করে নেটওয়ার্ক থেকে JSON ডেটা ফেচ করব এবং সেখান থেকে নাম, মোবাইল, ইমেইল, ঠিকানা ইত্যাদি ডেটা এক্সট্র্যাক্ট করব।" />
-<meta property="og:description" content="এই ক্লাসে আমরা Android অ্যাপে JSON ডেটা পার্স করার পদ্ধতি শিখব। আমরা Volley লাইব্রেরি ব্যবহার করে নেটওয়ার্ক থেকে JSON ডেটা ফেচ করব এবং সেখান থেকে নাম, মোবাইল, ইমেইল, ঠিকানা ইত্যাদি ডেটা এক্সট্র্যাক্ট করব।" />
-<link rel="canonical" href="http://localhost:4000/json-parse" />
-<meta property="og:url" content="http://localhost:4000/json-parse" />
+<meta name="description" content="আসসালামু আলাইকুম! আজকের পোস্টে আমরা জানব কিভাবে PHP দিয়ে MySQL ডেটাবেস কানেক্ট করতে হয় এবং কিছু কন্ডিশন চেক করে স্টেট (state) বুঝার জন্য কোড লিখতে হয়। এটি একটি বিগিনার-ফ্রেন্ডলি টিউটোরিয়াল, তাই আপনি যদি নতুন হন তবেও সহজেই বুঝতে পারবেন। চলুন শুরু করা যাক!" />
+<meta property="og:description" content="আসসালামু আলাইকুম! আজকের পোস্টে আমরা জানব কিভাবে PHP দিয়ে MySQL ডেটাবেস কানেক্ট করতে হয় এবং কিছু কন্ডিশন চেক করে স্টেট (state) বুঝার জন্য কোড লিখতে হয়। এটি একটি বিগিনার-ফ্রেন্ডলি টিউটোরিয়াল, তাই আপনি যদি নতুন হন তবেও সহজেই বুঝতে পারবেন। চলুন শুরু করা যাক!" />
+<link rel="canonical" href="http://localhost:4000/php-mysql-connect-and-condition-check" />
+<meta property="og:url" content="http://localhost:4000/php-mysql-connect-and-condition-check" />
 <meta property="og:site_name" content="BNDocs" />
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/hscbmt/img@main/class253.png" />
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/hscbmt/img@main/class261.png" />
 <meta property="og:image:alt" content="Android Studio Server & API" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-01-31T09:37:41+06:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://cdn.jsdelivr.net/gh/hscbmt/img@main/class253.png" />
+<meta property="twitter:image" content="https://cdn.jsdelivr.net/gh/hscbmt/img@main/class261.png" />
 <meta name="twitter:image:alt" content="Android Studio Server & API" />
-<meta property="twitter:title" content="Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা" />
+<meta property="twitter:title" content="Class 260 &amp; 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা" />
 <meta name="twitter:site" content="@/" />
 <meta name="twitter:creator" content="@/" />
 <meta name="google-site-verification" content="vjgNpfCQ-sgbjxiceMggtyq2MLfOg9_xNVrdhgaHRM4" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"MD JIHAD","url":"/"},"dateModified":"2025-01-31T09:38:41+06:00","datePublished":"2025-01-31T09:37:41+06:00","description":"এই ক্লাসে আমরা Android অ্যাপে JSON ডেটা পার্স করার পদ্ধতি শিখব। আমরা Volley লাইব্রেরি ব্যবহার করে নেটওয়ার্ক থেকে JSON ডেটা ফেচ করব এবং সেখান থেকে নাম, মোবাইল, ইমেইল, ঠিকানা ইত্যাদি ডেটা এক্সট্র্যাক্ট করব।","headline":"Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা","image":{"alt":"Android Studio Server & API","url":"https://cdn.jsdelivr.net/gh/hscbmt/img@main/class253.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/json-parse"},"url":"http://localhost:4000/json-parse"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"MD JIHAD","url":"/"},"dateModified":"2025-01-31T09:38:41+06:00","datePublished":"2025-01-31T09:37:41+06:00","description":"আসসালামু আলাইকুম! আজকের পোস্টে আমরা জানব কিভাবে PHP দিয়ে MySQL ডেটাবেস কানেক্ট করতে হয় এবং কিছু কন্ডিশন চেক করে স্টেট (state) বুঝার জন্য কোড লিখতে হয়। এটি একটি বিগিনার-ফ্রেন্ডলি টিউটোরিয়াল, তাই আপনি যদি নতুন হন তবেও সহজেই বুঝতে পারবেন। চলুন শুরু করা যাক!","headline":"Class 260 &amp; 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা","image":{"alt":"Android Studio Server & API","url":"https://cdn.jsdelivr.net/gh/hscbmt/img@main/class261.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/php-mysql-connect-and-condition-check"},"url":"http://localhost:4000/php-mysql-connect-and-condition-check"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা | BNDocs
+  <title>Class 260 & 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা | BNDocs
   </title>
 
   <!--
@@ -445,7 +445,7 @@
         
           
             
-              <span>Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা</span>
+              <span>Class 260 & 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা</span>
             
 
           
@@ -703,17 +703,6 @@
 
       
     
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
 
     
   
@@ -744,7 +733,7 @@
 
 <article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা</h1>
+    <h1 data-toc-skip>Class 260 & 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা</h1>
     
 
     <div class="post-meta text-muted">
@@ -806,7 +795,7 @@
         
 
         <div class="mt-3 mb-3">
-          <a href="https://cdn.jsdelivr.net/gh/hscbmt/img@main/class253.png" class="popup img-link preview-img shimmer"><img src="https://cdn.jsdelivr.net/gh/hscbmt/img@main/class253.png"  alt="Android Studio Server &amp; API" width="1200" height="630"  loading="lazy"></a><figcaption class="text-center pt-2 pb-2">Android Studio Server & API</figcaption></div>
+          <a href="https://cdn.jsdelivr.net/gh/hscbmt/img@main/class261.png" class="popup img-link preview-img shimmer"><img src="https://cdn.jsdelivr.net/gh/hscbmt/img@main/class261.png"  alt="Android Studio Server &amp; API" width="1200" height="630"  loading="lazy"></a><figcaption class="text-center pt-2 pb-2">Android Studio Server & API</figcaption></div>
       
 
       <div class="d-flex justify-content-between">
@@ -851,7 +840,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="579 words"
+  title="617 words"
 >
   <em>3 min</em> read</span>
 
@@ -862,7 +851,7 @@
 
   
     <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা</span>
+      <span class="label text-truncate">Class 260 & 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা</span>
       <button type="button" class="toc-trigger btn me-1">
         <i class="fa-solid fa-list-ul fa-fw"></i>
       </button>
@@ -875,7 +864,7 @@
 
     <dialog id="toc-popup" class="p-0">
       <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">Class 253- JSON অবজেক্ট পার্স করা এবং ডেটা এক্সট্র্যাক্ট করা</div>
+        <div class="label text-truncate py-2 ms-4">Class 260 & 261 - PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা এবং কন্ডিশন চেক করা</div>
         <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
           <i class="fas fa-close"></i>
         </button>
@@ -885,320 +874,187 @@
   
 
   <div class="content">
-    <p>এই ক্লাসে আমরা Android অ্যাপে JSON ডেটা পার্স করার পদ্ধতি শিখব। আমরা Volley লাইব্রেরি ব্যবহার করে নেটওয়ার্ক থেকে JSON ডেটা ফেচ করব এবং সেখান থেকে নাম, মোবাইল, ইমেইল, ঠিকানা ইত্যাদি ডেটা এক্সট্র্যাক্ট করব।</p>
+    <p>আসসালামু আলাইকুম! আজকের পোস্টে আমরা জানব কিভাবে PHP দিয়ে MySQL ডেটাবেস কানেক্ট করতে হয় এবং কিছু কন্ডিশন চেক করে স্টেট (state) বুঝার জন্য কোড লিখতে হয়। এটি একটি বিগিনার-ফ্রেন্ডলি টিউটোরিয়াল, তাই আপনি যদি নতুন হন তবেও সহজেই বুঝতে পারবেন। চলুন শুরু করা যাক!</p>
 
 <hr />
 
-<h3 id="volley-লাইব্রেরি-ব্যবহার-করে-json-পার্সিং"><span class="me-2">Volley লাইব্রেরি ব্যবহার করে JSON পার্সিং</span><a href="#volley-লাইব্রেরি-ব্যবহার-করে-json-পার্সিং" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<p><strong>Volley কি?</strong><br />
-Volley হল Android-এর একটি HTTP লাইব্রেরি, যা নেটওয়ার্ক রিকোয়েস্ট এবং রেসপন্স হ্যান্ডেলিং সহজ করে। এটি JSON ডেটা পার্স করার জন্য খুবই জনপ্রিয়।</p>
+<h3 id="প্রথমে-জেনে-নেই-কেন-এটি-জরুরি"><span class="me-2"><strong>প্রথমে জেনে নেই কেন এটি জরুরি?</strong></span><a href="#প্রথমে-জেনে-নেই-কেন-এটি-জরুরি" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>PHP এবং MySQL একসাথে কাজ করলে আমরা ওয়েবসাইটে ডেটা স্টোর করতে পারি, ডেটা রিট্রিভ করতে পারি, এবং অনেক ধরনের অপারেশন করতে পারি। উদাহরণস্বরূপ, আপনি যদি একটি লগইন সিস্টেম বানাতে চান, তাহলে আপনার ডেটাবেসে স্টোর করা ইউজারের ইনফরমেশন ব্যবহার করে লগইন চেক করতে হবে। এখানে PHP এবং MySQL এর কানেকশন খুবই গুরুত্বপূর্ণ।</p>
 
 <hr />
 
-<h3 id="স্টেপ-১-প্রোজেক্টে-volley-যোগ-করা"><span class="me-2">স্টেপ ১: প্রোজেক্টে Volley যোগ করা</span><a href="#স্টেপ-১-প্রোজেক্টে-volley-যোগ-করা" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>আপনার <code class="language-plaintext highlighter-rouge">build.gradle (Module: app)</code> ফাইলে Volley ডিপেন্ডেন্সি যোগ করুন:</p>
-<div class="language-gradle highlighter-rouge"><div class="code-header">
-        <span data-label-text="Gradle"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre><span class="k">dependencies</span> <span class="o">{</span>
-    <span class="n">implementation</span> <span class="s1">'com.android.volley:volley:1.2.1'</span>
-<span class="o">}</span>
-</pre></td></tr></tbody></table></code></div></div>
-<p>সিঙ্ক করুন এবং প্রোজেক্ট রিবিল্ড করুন।</p>
+<h3 id="ধাপ-১-ডেটাবেস-তৈরি-করা"><span class="me-2"><strong>ধাপ ১: ডেটাবেস তৈরি করা</strong></span><a href="#ধাপ-১-ডেটাবেস-তৈরি-করা" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>প্রথমে আমাদের একটি MySQL ডেটাবেস তৈরি করতে হবে। আমরা একটি সাধারণ ডেটাবেস তৈরি করব যেটি ইউজারের নাম এবং ইমেইল স্টোর করবে।</p>
 
-<hr />
-
-<h3 id="স্টেপ-২-ইন্টারনেট-পারমিশন-যোগ-করা"><span class="me-2">স্টেপ ২: ইন্টারনেট পারমিশন যোগ করা</span><a href="#স্টেপ-২-ইন্টারনেট-পারমিশন-যোগ-করা" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>আপনার <code class="language-plaintext highlighter-rouge">AndroidManifest.xml</code> ফাইলে ইন্টারনেট পারমিশন যোগ করুন:</p>
-<div class="language-xml highlighter-rouge"><div class="code-header">
-        <span data-label-text="XML"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">"android.permission.INTERNET"</span> <span class="nt">/&gt;</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<hr />
-
-<h3 id="স্টেপ-৩-json-ডেটা-ফেচ-এবং-পার্স-করার-কোড"><span class="me-2">স্টেপ ৩: JSON ডেটা ফেচ এবং পার্স করার কোড</span><a href="#স্টেপ-৩-json-ডেটা-ফেচ-এবং-পার্স-করার-কোড" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<p>নিচের উদাহরণে আমরা একটি JSON অবজেক্ট ফেচ করব এবং সেখান থেকে নাম, মোবাইল, ইমেইল, ঠিকানা ইত্যাদি ডেটা এক্সট্র্যাক্ট করব।</p>
-
-<p><strong>JSON উদাহরণ:</strong></p>
-<div class="language-json highlighter-rouge"><div class="code-header">
-        <span data-label-text="JSON"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td><td class="rouge-code"><pre><span class="p">{</span><span class="w">
-  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"আবুল"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"mobile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"01234567890"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"abul@example.com"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"address"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ঢাকা, বাংলাদেশ"</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></pre></td></tr></tbody></table></code></div></div>
-
-<p><strong>MainActivity.java:</strong></p>
-<div class="language-java highlighter-rouge"><div class="code-header">
-        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-</pre></td><td class="rouge-code"><pre><span class="kn">package</span> <span class="nn">com.example.jsonparsing</span><span class="o">;</span>
-
-<span class="kn">import</span> <span class="nn">android.os.Bundle</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">android.util.Log</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">android.widget.TextView</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">androidx.appcompat.app.AppCompatActivity</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">com.android.volley.Request</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">com.android.volley.RequestQueue</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">com.android.volley.Response</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">com.android.volley.VolleyError</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">com.android.volley.toolbox.JsonObjectRequest</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">com.android.volley.toolbox.Volley</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">org.json.JSONException</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">org.json.JSONObject</span><span class="o">;</span>
-
-<span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainActivity</span> <span class="kd">extends</span> <span class="nc">AppCompatActivity</span> <span class="o">{</span>
-
-    <span class="kd">private</span> <span class="nc">TextView</span> <span class="n">nameTextView</span><span class="o">,</span> <span class="n">mobileTextView</span><span class="o">,</span> <span class="n">emailTextView</span><span class="o">,</span> <span class="n">addressTextView</span><span class="o">;</span>
-    <span class="kd">private</span> <span class="nc">RequestQueue</span> <span class="n">requestQueue</span><span class="o">;</span>
-
-    <span class="nd">@Override</span>
-    <span class="kd">protected</span> <span class="kt">void</span> <span class="nf">onCreate</span><span class="o">(</span><span class="nc">Bundle</span> <span class="n">savedInstanceState</span><span class="o">)</span> <span class="o">{</span>
-        <span class="kd">super</span><span class="o">.</span><span class="na">onCreate</span><span class="o">(</span><span class="n">savedInstanceState</span><span class="o">);</span>
-        <span class="n">setContentView</span><span class="o">(</span><span class="no">R</span><span class="o">.</span><span class="na">layout</span><span class="o">.</span><span class="na">activity_main</span><span class="o">);</span>
-
-        <span class="c1">// TextView ইনিশিয়ালাইজ করা</span>
-        <span class="n">nameTextView</span> <span class="o">=</span> <span class="n">findViewById</span><span class="o">(</span><span class="no">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">nameTextView</span><span class="o">);</span>
-        <span class="n">mobileTextView</span> <span class="o">=</span> <span class="n">findViewById</span><span class="o">(</span><span class="no">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">mobileTextView</span><span class="o">);</span>
-        <span class="n">emailTextView</span> <span class="o">=</span> <span class="n">findViewById</span><span class="o">(</span><span class="no">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">emailTextView</span><span class="o">);</span>
-        <span class="n">addressTextView</span> <span class="o">=</span> <span class="n">findViewById</span><span class="o">(</span><span class="no">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">addressTextView</span><span class="o">);</span>
-
-        <span class="c1">// Volley রিকোয়েস্ট কিউ তৈরি করা</span>
-        <span class="n">requestQueue</span> <span class="o">=</span> <span class="nc">Volley</span><span class="o">.</span><span class="na">newRequestQueue</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>
-
-        <span class="c1">// JSON ডেটা ফেচ করার URL</span>
-        <span class="nc">String</span> <span class="n">url</span> <span class="o">=</span> <span class="s">"https://example.com/api/user"</span><span class="o">;</span> <span class="c1">// আপনার API URL এখানে বসান</span>
-
-        <span class="c1">// JSON রিকোয়েস্ট তৈরি করা</span>
-        <span class="nc">JsonObjectRequest</span> <span class="n">jsonObjectRequest</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">JsonObjectRequest</span><span class="o">(</span>
-                <span class="nc">Request</span><span class="o">.</span><span class="na">Method</span><span class="o">.</span><span class="na">GET</span><span class="o">,</span> <span class="n">url</span><span class="o">,</span> <span class="kc">null</span><span class="o">,</span>
-                <span class="k">new</span> <span class="nc">Response</span><span class="o">.</span><span class="na">Listener</span><span class="o">&lt;</span><span class="nc">JSONObject</span><span class="o">&gt;()</span> <span class="o">{</span>
-                    <span class="nd">@Override</span>
-                    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onResponse</span><span class="o">(</span><span class="nc">JSONObject</span> <span class="n">response</span><span class="o">)</span> <span class="o">{</span>
-                        <span class="k">try</span> <span class="o">{</span>
-                            <span class="c1">// JSON থেকে ডেটা এক্সট্র্যাক্ট করা</span>
-                            <span class="nc">String</span> <span class="n">name</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="na">getString</span><span class="o">(</span><span class="s">"name"</span><span class="o">);</span>
-                            <span class="nc">String</span> <span class="n">mobile</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="na">getString</span><span class="o">(</span><span class="s">"mobile"</span><span class="o">);</span>
-                            <span class="nc">String</span> <span class="n">email</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="na">getString</span><span class="o">(</span><span class="s">"email"</span><span class="o">);</span>
-                            <span class="nc">String</span> <span class="n">address</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="na">getString</span><span class="o">(</span><span class="s">"address"</span><span class="o">);</span>
-
-                            <span class="c1">// TextView-এ ডেটা সেট করা</span>
-                            <span class="n">nameTextView</span><span class="o">.</span><span class="na">setText</span><span class="o">(</span><span class="s">"নাম: "</span> <span class="o">+</span> <span class="n">name</span><span class="o">);</span>
-                            <span class="n">mobileTextView</span><span class="o">.</span><span class="na">setText</span><span class="o">(</span><span class="s">"মোবাইল: "</span> <span class="o">+</span> <span class="n">mobile</span><span class="o">);</span>
-                            <span class="n">emailTextView</span><span class="o">.</span><span class="na">setText</span><span class="o">(</span><span class="s">"ইমেইল: "</span> <span class="o">+</span> <span class="n">email</span><span class="o">);</span>
-                            <span class="n">addressTextView</span><span class="o">.</span><span class="na">setText</span><span class="o">(</span><span class="s">"ঠিকানা: "</span> <span class="o">+</span> <span class="n">address</span><span class="o">);</span>
-
-                        <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="nc">JSONException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
-                            <span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
-                            <span class="nc">Log</span><span class="o">.</span><span class="na">e</span><span class="o">(</span><span class="s">"JSON Parsing Error"</span><span class="o">,</span> <span class="n">e</span><span class="o">.</span><span class="na">getMessage</span><span class="o">());</span>
-                        <span class="o">}</span>
-                    <span class="o">}</span>
-                <span class="o">},</span>
-                <span class="k">new</span> <span class="nc">Response</span><span class="o">.</span><span class="na">ErrorListener</span><span class="o">()</span> <span class="o">{</span>
-                    <span class="nd">@Override</span>
-                    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onErrorResponse</span><span class="o">(</span><span class="nc">VolleyError</span> <span class="n">error</span><span class="o">)</span> <span class="o">{</span>
-                        <span class="nc">Log</span><span class="o">.</span><span class="na">e</span><span class="o">(</span><span class="s">"Volley Error"</span><span class="o">,</span> <span class="n">error</span><span class="o">.</span><span class="na">toString</span><span class="o">());</span>
-                    <span class="o">}</span>
-                <span class="o">}</span>
-        <span class="o">);</span>
-
-        <span class="c1">// রিকোয়েস্ট কিউ-তে রিকোয়েস্ট যোগ করা</span>
-        <span class="n">requestQueue</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">jsonObjectRequest</span><span class="o">);</span>
-    <span class="o">}</span>
-<span class="o">}</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<hr />
-
-<h3 id="স্টেপ-৪-লেআউট-ফাইল-তৈরি-করা"><span class="me-2">স্টেপ ৪: লেআউট ফাইল তৈরি করা</span><a href="#স্টেপ-৪-লেআউট-ফাইল-তৈরি-করা" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p><code class="language-plaintext highlighter-rouge">activity_main.xml</code> ফাইলে নিচের কোড যোগ করুন:</p>
-<div class="language-xml highlighter-rouge"><div class="code-header">
-        <span data-label-text="XML"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-</pre></td><td class="rouge-code"><pre><span class="cp">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span>
-<span class="nt">&lt;LinearLayout</span> <span class="na">xmlns:android=</span><span class="s">"http://schemas.android.com/apk/res/android"</span>
-    <span class="na">android:layout_width=</span><span class="s">"match_parent"</span>
-    <span class="na">android:layout_height=</span><span class="s">"match_parent"</span>
-    <span class="na">android:orientation=</span><span class="s">"vertical"</span>
-    <span class="na">android:padding=</span><span class="s">"16dp"</span><span class="nt">&gt;</span>
-
-    <span class="nt">&lt;TextView</span>
-        <span class="na">android:id=</span><span class="s">"@+id/nameTextView"</span>
-        <span class="na">android:layout_width=</span><span class="s">"wrap_content"</span>
-        <span class="na">android:layout_height=</span><span class="s">"wrap_content"</span>
-        <span class="na">android:text=</span><span class="s">"নাম: "</span>
-        <span class="na">android:textSize=</span><span class="s">"18sp"</span>
-        <span class="na">android:layout_marginBottom=</span><span class="s">"8dp"</span><span class="nt">/&gt;</span>
-
-    <span class="nt">&lt;TextView</span>
-        <span class="na">android:id=</span><span class="s">"@+id/mobileTextView"</span>
-        <span class="na">android:layout_width=</span><span class="s">"wrap_content"</span>
-        <span class="na">android:layout_height=</span><span class="s">"wrap_content"</span>
-        <span class="na">android:text=</span><span class="s">"মোবাইল: "</span>
-        <span class="na">android:textSize=</span><span class="s">"18sp"</span>
-        <span class="na">android:layout_marginBottom=</span><span class="s">"8dp"</span><span class="nt">/&gt;</span>
-
-    <span class="nt">&lt;TextView</span>
-        <span class="na">android:id=</span><span class="s">"@+id/emailTextView"</span>
-        <span class="na">android:layout_width=</span><span class="s">"wrap_content"</span>
-        <span class="na">android:layout_height=</span><span class="s">"wrap_content"</span>
-        <span class="na">android:text=</span><span class="s">"ইমেইল: "</span>
-        <span class="na">android:textSize=</span><span class="s">"18sp"</span>
-        <span class="na">android:layout_marginBottom=</span><span class="s">"8dp"</span><span class="nt">/&gt;</span>
-
-    <span class="nt">&lt;TextView</span>
-        <span class="na">android:id=</span><span class="s">"@+id/addressTextView"</span>
-        <span class="na">android:layout_width=</span><span class="s">"wrap_content"</span>
-        <span class="na">android:layout_height=</span><span class="s">"wrap_content"</span>
-        <span class="na">android:text=</span><span class="s">"ঠিকানা: "</span>
-        <span class="na">android:textSize=</span><span class="s">"18sp"</span><span class="nt">/&gt;</span>
-<span class="nt">&lt;/LinearLayout&gt;</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<hr />
-
-<h3 id="স্টেপ-৫-অ্যাপ-রান-করা"><span class="me-2">স্টেপ ৫: অ্যাপ রান করা</span><a href="#স্টেপ-৫-অ্যাপ-রান-করা" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <ol>
-  <li>আপনার API URL সঠিকভাবে সেট করুন।</li>
-  <li>অ্যাপ রান করুন এবং JSON ডেটা ফেচ করে UI-তে দেখান।</li>
+  <li><strong>phpMyAdmin</strong> ওপেন করুন।</li>
+  <li>নতুন ডেটাবেস তৈরি করুন। ডেটাবেসের নাম দিন <code class="language-plaintext highlighter-rouge">my_database</code>।</li>
+  <li>একটি টেবিল তৈরি করুন যার নাম হবে <code class="language-plaintext highlighter-rouge">users</code>। এই টেবিলে দুটি কলাম থাকবে:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">id</code> (INT, Primary Key, Auto Increment)</li>
+      <li><code class="language-plaintext highlighter-rouge">name</code> (VARCHAR(50))</li>
+      <li><code class="language-plaintext highlighter-rouge">email</code> (VARCHAR(100))</li>
+    </ul>
+  </li>
 </ol>
 
+<p>এখন আমাদের ডেটাবেস রেডি! এখন আমরা PHP দিয়ে এই ডেটাবেসে কানেক্ট করব।</p>
+
 <hr />
 
-<h3 id="সারমর্ম"><span class="me-2">সারমর্ম</span><a href="#সারমর্ম" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h3 id="ধাপ-২-php-দিয়ে-mysql-ডেটাবেস-কানেক্ট-করা"><span class="me-2"><strong>ধাপ ২: PHP দিয়ে MySQL ডেটাবেস কানেক্ট করা</strong></span><a href="#ধাপ-২-php-দিয়ে-mysql-ডেটাবেস-কানেক্ট-করা" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>PHP দিয়ে MySQL ডেটাবেসে কানেক্ট করার জন্য আমরা <code class="language-plaintext highlighter-rouge">mysqli</code> ব্যবহার করব। এটি একটি সহজ এবং সিকিউর উপায়।</p>
+
+<p>নিচের কোডটি দেখুন:</p>
+
+<div class="language-php highlighter-rouge"><div class="code-header">
+        <span data-label-text="PHP"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</pre></td><td class="rouge-code"><pre><span class="cp">&lt;?php</span>
+<span class="c1">// ডেটাবেস কানেকশনের জন্য প্রয়োজনীয় তথ্য</span>
+<span class="nv">$servername</span> <span class="o">=</span> <span class="s2">"localhost"</span><span class="p">;</span> <span class="c1">// সার্ভারের নাম</span>
+<span class="nv">$username</span> <span class="o">=</span> <span class="s2">"root"</span><span class="p">;</span>        <span class="c1">// ডেটাবেস ইউজারনেম</span>
+<span class="nv">$password</span> <span class="o">=</span> <span class="s2">""</span><span class="p">;</span>            <span class="c1">// ডেটাবেস পাসওয়ার্ড (ডিফল্ট খালি)</span>
+<span class="nv">$dbname</span> <span class="o">=</span> <span class="s2">"my_database"</span><span class="p">;</span>   <span class="c1">// ডেটাবেসের নাম</span>
+
+<span class="c1">// কানেকশন তৈরি করা</span>
+<span class="nv">$conn</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">mysqli</span><span class="p">(</span><span class="nv">$servername</span><span class="p">,</span> <span class="nv">$username</span><span class="p">,</span> <span class="nv">$password</span><span class="p">,</span> <span class="nv">$dbname</span><span class="p">);</span>
+
+<span class="c1">// কানেকশন চেক করা</span>
+<span class="k">if</span> <span class="p">(</span><span class="nv">$conn</span><span class="o">-&gt;</span><span class="n">connect_error</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">die</span><span class="p">(</span><span class="s2">"Connection failed: "</span> <span class="mf">.</span> <span class="nv">$conn</span><span class="o">-&gt;</span><span class="n">connect_error</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="k">echo</span> <span class="s2">"Connected successfully!"</span><span class="p">;</span>
+<span class="cp">?&gt;</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>ব্যাখ্যা:</strong></p>
 <ul>
-  <li>Volley ব্যবহার করে Android অ্যাপে JSON ডেটা ফেচ করা খুবই সহজ।</li>
-  <li><code class="language-plaintext highlighter-rouge">JsonObjectRequest</code> দিয়ে JSON অবজেক্ট পার্স করা যায়।</li>
-  <li>JSON থেকে ডেটা এক্সট্র্যাক্ট করে UI-তে দেখানো যায়।</li>
+  <li><code class="language-plaintext highlighter-rouge">$servername</code>: আপনার সার্ভারের নাম। লোকালহোস্টে থাকলে <code class="language-plaintext highlighter-rouge">localhost</code> দিন।</li>
+  <li><code class="language-plaintext highlighter-rouge">$username</code>: ডেটাবেসের ইউজারনেম। ডিফল্ট হল <code class="language-plaintext highlighter-rouge">root</code>।</li>
+  <li><code class="language-plaintext highlighter-rouge">$password</code>: ডেটাবেসের পাসওয়ার্ড। লোকালহোস্টে থাকলে এটি খালি থাকে।</li>
+  <li><code class="language-plaintext highlighter-rouge">$dbname</code>: আপনার ডেটাবেসের নাম।</li>
 </ul>
 
-<blockquote class="prompt-tip">
-  <p>এই ক্লাসে আমরা Android-এ JSON পার্সিং শিখলাম। পরবর্তী ক্লাসে আমরা JSON অ্যারে পার্সিং শিখব। 😊</p>
-</blockquote>
+<p>যদি কানেকশন সফল হয়, তাহলে পেজে “Connected successfully!” দেখাবে। না হলে এরর মেসেজ দেখাবে।</p>
+
+<hr />
+
+<h3 id="ধাপ-৩-কিছু-ডেটা-ইনসার্ট-করা"><span class="me-2"><strong>ধাপ ৩: কিছু ডেটা ইনসার্ট করা</strong></span><a href="#ধাপ-৩-কিছু-ডেটা-ইনসার্ট-করা" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>এখন আমরা ডেটাবেসে কিছু ডেটা ইনসার্ট করব। নিচের কোডটি দেখুন:</p>
+
+<div class="language-php highlighter-rouge"><div class="code-header">
+        <span data-label-text="PHP"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</pre></td><td class="rouge-code"><pre><span class="cp">&lt;?php</span>
+<span class="c1">// ডেটাবেস কানেকশন কোড এখানে থাকবে (উপরের কোড)</span>
+
+<span class="c1">// ডেটা ইনসার্ট করার জন্য SQL কোয়েরি</span>
+<span class="nv">$sql</span> <span class="o">=</span> <span class="s2">"INSERT INTO users (name, email) VALUES ('John Doe', 'john@example.com')"</span><span class="p">;</span>
+
+<span class="c1">// কোয়েরি রান করা</span>
+<span class="k">if</span> <span class="p">(</span><span class="nv">$conn</span><span class="o">-&gt;</span><span class="nf">query</span><span class="p">(</span><span class="nv">$sql</span><span class="p">)</span> <span class="o">===</span> <span class="kc">TRUE</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">echo</span> <span class="s2">"New record created successfully"</span><span class="p">;</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="k">echo</span> <span class="s2">"Error: "</span> <span class="mf">.</span> <span class="nv">$sql</span> <span class="mf">.</span> <span class="s2">"&lt;br&gt;"</span> <span class="mf">.</span> <span class="nv">$conn</span><span class="o">-&gt;</span><span class="n">error</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// কানেকশন ক্লোজ করা</span>
+<span class="nv">$conn</span><span class="o">-&gt;</span><span class="nf">close</span><span class="p">();</span>
+<span class="cp">?&gt;</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>এই কোডটি রান করলে আপনার ডেটাবেসে একটি নতুন ইউজারের ডেটা স্টোর হবে।</p>
+
+<hr />
+
+<h3 id="ধাপ-৪-কন্ডিশন-চেক-করা"><span class="me-2"><strong>ধাপ ৪: কন্ডিশন চেক করা</strong></span><a href="#ধাপ-৪-কন্ডিশন-চেক-করা" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>এখন আমরা ডেটাবেস থেকে ডেটা রিট্রিভ করব এবং কিছু কন্ডিশন চেক করব। উদাহরণস্বরূপ, আমরা একটি ইমেইল দিয়ে চেক করব যে এই ইমেইল ডেটাবেসে আছে কিনা।</p>
+
+<div class="language-php highlighter-rouge"><div class="code-header">
+        <span data-label-text="PHP"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+</pre></td><td class="rouge-code"><pre><span class="cp">&lt;?php</span>
+<span class="c1">// ডেটাবেস কানেকশন কোড এখানে থাকবে (উপরের কোড)</span>
+
+<span class="c1">// ইমেইল চেক করার জন্য SQL কোয়েরি</span>
+<span class="nv">$email</span> <span class="o">=</span> <span class="s2">"john@example.com"</span><span class="p">;</span> <span class="c1">// যে ইমেইল চেক করবেন</span>
+<span class="nv">$sql</span> <span class="o">=</span> <span class="s2">"SELECT * FROM users WHERE email='</span><span class="nv">$email</span><span class="s2">'"</span><span class="p">;</span>
+
+<span class="nv">$result</span> <span class="o">=</span> <span class="nv">$conn</span><span class="o">-&gt;</span><span class="nf">query</span><span class="p">(</span><span class="nv">$sql</span><span class="p">);</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nv">$result</span><span class="o">-&gt;</span><span class="n">num_rows</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// যদি ডেটা পাওয়া যায়</span>
+    <span class="k">echo</span> <span class="s2">"User found!"</span><span class="p">;</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="c1">// যদি ডেটা না পাওয়া যায়</span>
+    <span class="k">echo</span> <span class="s2">"User not found!"</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// কানেকশন ক্লোজ করা</span>
+<span class="nv">$conn</span><span class="o">-&gt;</span><span class="nf">close</span><span class="p">();</span>
+<span class="cp">?&gt;</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>ব্যাখ্যা:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">$email</code> ভেরিয়েবলে আমরা যে ইমেইল চেক করতে চাই সেটি দিব।</li>
+  <li><code class="language-plaintext highlighter-rouge">SELECT * FROM users WHERE email='$email'</code> কোয়েরিটি ডেটাবেসে ঐ ইমেইল সার্চ করবে।</li>
+  <li>যদি কোন ডেটা পাওয়া যায় (<code class="language-plaintext highlighter-rouge">num_rows &gt; 0</code>), তাহলে “User found!” দেখাবে। না হলে “User not found!” দেখাবে।</li>
+</ul>
+
+<hr />
+<h3 id="শেষ-কথা"><span class="me-2"><strong>শেষ কথা</strong></span><a href="#শেষ-কথা" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>আজকের টিউটোরিয়ালে আমরা শিখলাম কিভাবে PHP দিয়ে MySQL ডেটাবেস কানেক্ট করতে হয় এবং কিছু কন্ডিশন চেক করতে হয়। এটি শুধু একটি বেসিক টিউটোরিয়াল। আপনি চাইলে এই জ্ঞান ব্যবহার করে আরও জটিল প্রজেক্ট করতে পারেন।</p>
 
   </div>
 
@@ -1256,21 +1112,21 @@ Volley হল Android-এর একটি HTTP লাইব্রেরি, য�
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Class%20253-%20JSON%20%E0%A6%85%E0%A6%AC%E0%A6%9C%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%20%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%20%E0%A6%95%E0%A6%B0%E0%A6%BE%20%E0%A6%8F%E0%A6%AC%E0%A6%82%20%E0%A6%A1%E0%A7%87%E0%A6%9F%E0%A6%BE%20%E0%A6%8F%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%9F%20%E0%A6%95%E0%A6%B0%E0%A6%BE%20-%20BNDocs&url=http%3A%2F%2Flocalhost%3A4000%2Fjson-parse" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Class%20260%20&%20261%20-%20PHP%20%E0%A6%A6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87%20MySQL%20%E0%A6%A1%E0%A7%87%E0%A6%9F%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B8%20%E0%A6%95%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%20%E0%A6%95%E0%A6%B0%E0%A6%BE%20%E0%A6%8F%E0%A6%AC%E0%A6%82%20%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%B6%E0%A6%A8%20%E0%A6%9A%E0%A7%87%E0%A6%95%20%E0%A6%95%E0%A6%B0%E0%A6%BE%20-%20BNDocs&url=http%3A%2F%2Flocalhost%3A4000%2Fphp-mysql-connect-and-condition-check" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Class%20253-%20JSON%20%E0%A6%85%E0%A6%AC%E0%A6%9C%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%20%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%20%E0%A6%95%E0%A6%B0%E0%A6%BE%20%E0%A6%8F%E0%A6%AC%E0%A6%82%20%E0%A6%A1%E0%A7%87%E0%A6%9F%E0%A6%BE%20%E0%A6%8F%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%9F%20%E0%A6%95%E0%A6%B0%E0%A6%BE%20-%20BNDocs&u=http%3A%2F%2Flocalhost%3A4000%2Fjson-parse" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Class%20260%20&%20261%20-%20PHP%20%E0%A6%A6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87%20MySQL%20%E0%A6%A1%E0%A7%87%E0%A6%9F%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B8%20%E0%A6%95%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%20%E0%A6%95%E0%A6%B0%E0%A6%BE%20%E0%A6%8F%E0%A6%AC%E0%A6%82%20%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%B6%E0%A6%A8%20%E0%A6%9A%E0%A7%87%E0%A6%95%20%E0%A6%95%E0%A6%B0%E0%A6%BE%20-%20BNDocs&u=http%3A%2F%2Flocalhost%3A4000%2Fphp-mysql-connect-and-condition-check" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fjson-parse&text=Class%20253-%20JSON%20%E0%A6%85%E0%A6%AC%E0%A6%9C%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%20%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%20%E0%A6%95%E0%A6%B0%E0%A6%BE%20%E0%A6%8F%E0%A6%AC%E0%A6%82%20%E0%A6%A1%E0%A7%87%E0%A6%9F%E0%A6%BE%20%E0%A6%8F%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%9F%20%E0%A6%95%E0%A6%B0%E0%A6%BE%20-%20BNDocs" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fphp-mysql-connect-and-condition-check&text=Class%20260%20&%20261%20-%20PHP%20%E0%A6%A6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87%20MySQL%20%E0%A6%A1%E0%A7%87%E0%A6%9F%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B8%20%E0%A6%95%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%20%E0%A6%95%E0%A6%B0%E0%A6%BE%20%E0%A6%8F%E0%A6%AC%E0%A6%82%20%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%B6%E0%A6%A8%20%E0%A6%9A%E0%A7%87%E0%A6%95%20%E0%A6%95%E0%A6%B0%E0%A6%BE%20-%20BNDocs" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1540,55 +1396,55 @@ Volley হল Android-এর একটি HTTP লাইব্রেরি, য�
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
   
 
   
@@ -1738,21 +1594,21 @@ Volley হল Android-এর একটি HTTP লাইব্রেরি, য�
 
   
     <a
-      href="/json-format"
+      href="/json-parse-listview"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>Class 252- JSON ফাইল ফরম্যাট এবং JSON অবজেক্ট ও অ্যারে বোঝা</p>
+      <p>Class 256 & 257- একটি পূর্ণাঙ্গ অ্যান্ড্রয়েড অ্যাপ তৈরি করা - JSON পার্সিং এবং ListView ব্যবহার করে</p>
     </a>
   
 
   
     <a
-      href="/json-array-creation"
+      href="/pass-data-by-url-parameter-and-receive-data-by-get-method"
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
-      <p>Class 254- JSON Array তৈরি করার পদ্ধতি (বাংলায়)</p>
+      <p>Class 262- URL প্যারামিটারের মাধ্যমে ডেটা পাস করা এবং PHP $_GET মেথড দিয়ে ডেটা রিসিভ করা</p>
     </a>
   
 </nav>

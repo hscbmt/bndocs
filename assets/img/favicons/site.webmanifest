@@ -1,21 +1,23 @@
+
+
 {
   "name": "BNDocs",
-  "short_name": "BND",
+  "short_name": "BNDocs",
+  "description": "BNDocs একটি অনলাইন প্ল্যাটফর্ম যেখানে Android Studio, Java, PHP এবং অ্যাপ ডেভেলপমেন্ট সম্পর্কিত বিভিন্ন টিউটোরিয়াল, নোট এবং গাইড সরবরাহ করা হয়।",
   "icons": [
     {
-      "src": "/web-app-manifest-192x192.png",
+      "src": "/assets/img/favicons/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
+      "type": "image/png"
     },
     {
-      "src": "/web-app-manifest-512x512.png",
+      "src": "/assets/img/favicons/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ],
-  "theme_color": "#ffffff",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "theme_color": "#2a1e6b",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "fullscreen"
 }
+
